@@ -1,5 +1,7 @@
 # DJI Mic Mini Monitor
 
+[中文](README.md) · **English**
+
 Read the live status of a **DJI Mic Mini** receiver over USB on Windows: transmitter battery, charging state, noise-cancel / low-cut / auto-off switches, and receiver gain. Ships with a tray widget that lives in the notification area and a 1 Hz battery/charging monitor.
 
 > Unofficial. Not affiliated with DJI. The protocol is community reverse engineering and may break with a firmware update.
