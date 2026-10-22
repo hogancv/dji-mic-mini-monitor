@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local environment (created by scripts/setup.ps1)
+.venv/
+venv/
+
+# Driver package built at install time
+build/
+
+# Build output (exe, release folder, zip) -- attach to GitHub Releases instead
+release/
+*.spec
+
+# Runtime state / logs
+src/tray_state.json
+tray_state.json
+charge_log_*.csv
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,5 @@
+# Only the tray widget needs third-party packages.
+# src/micbattery.py, src/charge_monitor.py and src/dock_check.py use the
+# standard library (ctypes) alone -- no pip install required for the CLI tools.
+pystray>=0.19.5
+Pillow>=10.0
